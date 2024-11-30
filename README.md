@@ -1,2 +1,2 @@
 # StreamLine
- A desktop app that donloads youtube videos on device from selected creators
+ A desktop app that downloads youtube videos on device from selected creators
