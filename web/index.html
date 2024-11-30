@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamLine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script type="text/javascript" src="/eel.js"></script>
+    <script src="./script.js"></script>
+
+    <div class="container">
+        <!-- Video List (Home Screen) -->
+        <div id="home-screen">
+            <h1 class="title">
+                Welcome Back
+                <div class="title-actions">
+                    <button class="refresh-btn">
+                        <img src="icons/refresh-icon.svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="25" height="25" class="refresh-icon">
+                    </button>
+                    <button class="settings-btn">
+                        <img src="icons/gear-icon.svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" width="35" height="35" class="gear-icon">
+                    </button>
+                </div>
+            </h1>
+            <div class="scrollable-list" id="video-list">
+                <!-- Dynamic video items will be added here -->
+            </div>
+        </div>
+
+    </div>
+    <!-- Video Player (This will be shown when a video is clicked) -->
+    <div id="video-screen" style="display: none;">
+        <button id="back-btn">Back to Home</button>
+        <div id="video-container">
+            <!-- Video player will appear here -->
+        </div>
+    </div>
+</body>
+</html>
